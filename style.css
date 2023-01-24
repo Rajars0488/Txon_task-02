@@ -1,0 +1,119 @@
+body{
+    margin:0;
+    line-height: 0.35;
+    padding:0;
+    background: linear-gradient(to left,#7d0eec,rgb(207, 76, 76));
+
+}
+
+.top{
+    margin-left: 30%;
+    margin-top: 7%;
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+    font-family:cursive;
+    font-weight: 700px;
+    font-size: 50;
+    text-decoration: solid;
+
+}
+input:hover{
+ 
+    transition: all 0.3s linear;
+    transform: scale(1.1);
+}
+
+.cal{
+    width:400px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: absolute;
+    top:55%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    transition: 0.25px;
+    text-align: center;
+    
+
+}
+
+#display{
+    border:none;
+    background:white;
+    border-radius: 30px;
+    width: 245px;
+    font-size: 20;
+    font-family: sans-serif;
+    font-weight: 300;
+    height: 60;
+    margin: auto;
+    border: 2px solid rgb(21, 20, 19);
+    color: rgb(223, 41, 41);
+    cursor:auto;
+    transition: 000.25px;
+}
+#display:hover{
+    background-color:#5699ea;
+}
+
+.btndesign{
+    width: 55;
+    height: 55;
+    padding-top: -1;
+    border: none;
+    background: white;
+    font-family: Georgia;
+    font-size: 20;
+    font-weight: 300;
+    border-radius: 30px;
+    margin: 1.5;
+    transition: 00.25px;
+    cursor:grab;
+}
+.btndesign:hover{
+    background-color:aquamarine;
+}
+
+
+.operatorDesign{
+    width: 55;
+    height: 55;
+    padding-top: -1;
+    border: none;
+    background: white;
+    font-family: Georgia;
+    font-size: 20;
+    font-weight: 300;
+    border-radius: 30px;
+    margin: 1.5;
+    transition: 00.25px;
+    cursor:pointer;
+
+}
+.operatorDesign:hover{
+    background-color: aquamarine;
+}
+#cls:hover{
+    background-color: red;
+}
+#del:hover{
+    background-color: blue;
+}
+#zero{
+    width: 116;
+    height: 55;
+    padding-top: -1;
+    border: none;
+    font-family: sans-serif;
+    font-size: 20;
+    background:white;
+    font-weight: 300;
+    border-radius: 30px;
+    margin: 1.5;
+    cursor:grabbing;
+    transition:0.25px;
+}
+#zero:hover{
+    background-color: rgb(254, 185, 100);
+}
